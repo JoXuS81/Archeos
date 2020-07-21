@@ -1,0 +1,2474 @@
+/* TABLE OF CONTENTS
+********************
+
+1. Variables
+2. Mixins
+3. Max Width: 327px
+4. Max Width: 576px
+5. Min Width: 577px, Max Width: 768px 
+6. Min Width: 769px, Max Width: 992px
+7. Min Width: 993px, Max Width: 1200px
+8. Min Width: 1201px, Max Width: 1400px
+9. Min Width: 1401px, Max Width: 1500px
+10. Min Width: 1601px, Max Width: 2000px
+11. Min Width: 2001px, Max Width: 2500px
+12. Min Width: 2501px, Max Width: 3125px
+13. Min Width: 3125px
+
+*/
+
+
+/* Variables */
+$arrow-border:0.1em;
+$arrow-color:black;
+$arrow-size:0.75em;
+$black:black;
+$border:0.2em;
+$lightblue:#d5eef5;
+$lightgray:#d8d3d1;
+$mediumgray:#c1bebd;
+$raisinblack:#2c221d;
+$social:#26ade3;
+$white:white;
+
+
+/* Mixins */
+@mixin heading_576 {
+    font-size:42px;
+}
+@mixin heading_1400 {
+    font-size:54px;
+}
+@mixin heading_2000 {
+    font-size:90px;
+}
+@mixin heading_2500 {
+    font-size:112px;
+}
+@mixin heading_3125 {
+    font-size:140px;
+}
+@mixin heading_3850 {
+    font-size:175px;
+}
+
+
+/* Max Width: 327px */
+@media (max-width:327px) {
+    .btn-danger {
+        margin-top:25px;
+    }
+}
+
+
+/* Max Width: 576px */
+@media (max-width:576px) {
+    .about {
+        margin-left:0;
+    }
+    .about h3 {
+        font-size:21px;
+    }
+    .about_info {
+        margin-top:100px;
+    }
+    .about p {
+        line-height:29px;
+    }
+    .agents {
+        margin:0;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .agents_blo {
+        margin-top:160px;
+    }
+    .agents_block {
+        margin:0;
+        padding:0;
+    }
+    .agents_cont {
+        margin-top:15px;
+    }
+    .agents_contact {
+        margin-top:25px;
+    }
+    .agents h2 {
+        border-left:none;
+        padding:0;
+        text-align:center;
+    }
+    .agents h3 {
+        text-align:center;
+    }
+    .agents_info {
+        margin:0;
+        margin-top:25px;
+        padding:0;
+        right:0;
+        width:90%;
+    }
+    .agents_mail {
+        left:0;
+        position:absolute;
+        margin-top:45px;
+    }
+    .agents p {
+        margin-right:25px;
+        padding:0;
+    }
+    .agents_phone {
+        left:0;
+        position:absolute;
+    }
+    .agents_skype {
+        left:0;
+        position:absolute;
+        margin-top:90px;
+    }
+    .agents_text {
+        bottom:0;
+        margin:0;
+        margin-top:5px;
+        padding:0;
+        text-align:center;
+        width:100%;
+    }
+    .blog {
+        margin:0;
+        margin-top:175px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .blog h3 {
+        text-align:center;
+    }
+    .blog_info {
+        width:80%;
+    }
+    .blog_information {
+        width:100%;
+    }
+    .contact {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .contact_address {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_info {
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .contact_information {
+        margin:0;
+        padding:0;
+    }
+    .contact_information br {
+        display:block;
+    }
+    .contact_mail {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_phone {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .footer {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_bottom {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_bottom a {
+        font-size:14px;
+    }
+    .footer_copyright {
+        font-size:14px;
+    }
+    .footer_info {
+        text-align:center;
+    }
+    .footer_links {
+        text-align:center;
+    }
+    h1 {
+        @include heading_576;
+    }
+    .home_agents {
+        left:9px;
+    }
+    .home_buttons {
+        position:relative;
+        width:100%;
+    }
+    .home_content {
+        left:0;
+    }
+    .home_hamburger {
+        left:0;
+        top:0;
+        visibility:visible;
+        z-index:20;
+    }
+    .home_info {
+        left:0;
+    }
+    .home_menu {
+        left:-240px;
+        z-index:13;
+    }
+    .home_offers {
+        left:15px;
+    }
+    .marketing {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .marketing a {
+        width:78%;
+    }
+    .marketing > div:before {
+        border-bottom:90px solid $social;
+        border-right:90px solid $white;
+}
+    .marketing h1 {
+        font-size:24px;
+    }
+    .newsletter_content {
+        margin-left:0;
+        width:100%;
+    }
+    .newsletter_block {
+        display:block;
+        text-align:center;
+    }
+    .newsletter_form {
+        margin-top:15px;
+    }
+    .newsletter_info {
+        text-align:center;
+        width:100%;
+    }
+    .newsletter_link {
+        text-align:center;
+    }
+    .properties {
+        margin-left:0;
+    }
+    .properties a {
+        width:80%;
+    }
+    .properties_block {
+        margin-top:75px;
+    }
+    .propertiesReservation_cartcolumn {
+        font-size:14px;
+    }
+    .propertiesReservation_cartrow {
+        background:orange;
+        display:inline;
+    }
+    .propertiesReservation_details {
+        display:inline;
+        padding:5px;
+    }
+    .propertiesReservation_header {
+        font-size:2em;
+    }
+    .prop_test {
+        background:red;
+    }
+}
+
+
+/* Min Width: 577px, Max Width: 768px */
+@media (min-width:577px) and (max-width:768px) {
+    .about {
+        margin-left:0;
+    }
+    .about h3 {
+        font-size:27px;
+    }
+    .about_info {
+        margin-top:100px;
+    }
+    .about p {
+        line-height:38px;
+    }
+    .agents {
+        margin:0;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .agents_block {
+        margin:0;
+        padding:0;
+    }
+    .agents_cont {
+        margin-top:15px;
+    }
+    .agents_contact {
+        margin-top:25px;
+    }
+    .agents h2 {
+        border-left:none;
+        padding:0;
+        text-align:center;
+    }
+    .agents h3 {
+        text-align:center;
+    }
+    .agents_info {
+        margin:0;
+        margin-top:25px;
+        padding:0;
+        right:0;
+        width:90%;
+    }
+    .agents p {
+        margin-right:25px;
+        padding:0;
+    }
+    .agents_text {
+        bottom:0;
+        margin:0;
+        margin-top:5px;
+        padding:0;
+        text-align:center;
+        width:100%;
+    }
+    .blog {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .blog h3 {
+        text-align:center;
+    }
+    .blog_info {
+        width:80%;
+    }
+    .blog_information {
+        width:100%;
+    }
+    .contact {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .contact_address {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_info {
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .contact_information {
+        margin:0;
+        padding:0;
+    }
+    .contact_information br {
+        display:block;
+    }
+    .contact_mail {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_phone {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .footer {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_bottom {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_info {
+        text-align:center;
+    }
+    .footer_links {
+        text-align:center;
+    }
+    h1 {
+        @include heading_1400;
+    }
+    .home_agents {
+        left:9px;
+    }
+    .home_buttons {
+        left:15px;
+        position:relative;
+        width:90%;
+    }
+    .home_content {
+        left:0;
+    }
+    .home_hamburger {
+        left:0;
+        top:0;
+        visibility:visible;
+        z-index:20;
+    }
+    .home_info {
+        left:0;
+    }
+    .home_menu {
+        left:-240px;
+        z-index:13;
+    }
+    .home_offers {
+        left:15px;
+    }
+    .marketing {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .marketing a {
+        width:33%;
+    }
+    .marketing h1 {
+        font-size:36px;
+    }
+    .newsletter_content {
+        margin-left:0;
+        width:100%;
+    }
+    .newsletter_form {
+        margin-top:15px;
+    }
+    .newsletter_info {
+        text-align:center;
+        width:100%;
+    }
+    .properties {
+        margin-left:0;
+    }
+    .properties_block {
+        margin-top:75px;
+    }
+}
+
+
+/* Min Width: 769px, Max Width: 992px */
+@media (min-width:769px) and (max-width:992px) {
+    .about {
+        margin-left:0;
+    }
+    .about h3 {
+        font-size:27px;
+    }
+    .about_info {
+        margin-top:100px;
+    }
+    .about p {
+        line-height:38px;
+    }
+    .agents {
+        margin:0;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .agents_block {
+        margin:0;
+        padding:0;
+    }
+    .agents_cont {
+        margin-top:15px;
+    }
+    .agents_contact {
+        margin-top:25px;
+    }
+    .agents h2 {
+        border-left:none;
+        padding:0;
+        text-align:center;
+    }
+    .agents h3 {
+        text-align:center;
+    }
+    .agents_info {
+        margin:0;
+        margin-top:25px;
+        padding:0;
+        right:0;
+        width:90%;
+    }
+    .agents p {
+        margin-right:25px;
+        padding:0;
+    }
+    .agents_text {
+        bottom:0;
+        margin:0;
+        margin-top:5px;
+        padding:0;
+        text-align:center;
+        width:100%;
+    }
+    .blog {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .blog h3 {
+        text-align:center;
+    }
+    .blog_info {
+        width:80%;
+    }
+    .blog_information {
+        width:100%;
+    }
+    .contact {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .contact_address {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_info {
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .contact_information {
+        margin:0;
+        padding:0;
+    }
+    .contact_information br {
+        display:block;
+    }
+    .contact_mail {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_phone {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .footer {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_bottom {
+        margin-left:0;
+        width:100%;
+    }
+    .footer_info {
+        text-align:center;
+    }
+    .footer_links {
+        text-align:center;
+    }
+    h1 {
+        @include heading_1400;
+    }
+    .home_agents {
+        left:9px;
+    }
+    .home_buttons {
+        left:15px;
+        position:relative;
+        width:90%;
+    }
+    .home_content {
+        left:0;
+    }
+    .home_hamburger {
+        left:0;
+        top:0;
+        visibility:visible;
+        z-index:20;
+    }
+    .home_info {
+        left:0;
+    }
+    .home_menu {
+        left:-240px;
+        z-index:17;
+    }
+    .home_offers {
+        left:15px;
+    }
+    .marketing {
+        margin:0;
+        margin-top:75px;
+        left:0;
+        padding:0;
+        width:100%;
+    }
+    .marketing a {
+        width:27%;
+    }
+    .newsletter_content {
+        margin-left:0;
+        width:100%;
+    }
+    .newsletter_form {
+        margin-top:15px;
+    }
+    .newsletter_info {
+        text-align:center;
+        width:100%;
+    }
+    .properties {
+        margin-left:0;
+    }
+    .properties_block {
+        margin-top:75px;
+    }
+}
+
+
+/* Min Width: 993px, Max Width: 1200px */
+@media (min-width:993px) and (max-width:1200px) {
+    .about h3 {
+        font-size:27px;
+    }
+    .about_info {
+        margin-top:100px;
+    }
+    .about p {
+        line-height:38px;
+    }
+    .agents_block {
+        margin:0;
+        padding:0;
+    }
+    .agents_info {
+        right:0;
+        width:90%;
+    }
+    .contact {
+        width:75%;
+    }
+    .contact_address {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_info {
+        margin:0;
+        padding:0;
+    }
+    .contact_information {
+        margin:0;
+        padding:0;
+    }
+    .contact_information br {
+        display:none;
+    }
+    .contact_mail {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .contact_phone {
+        bottom:17px;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .footer {
+        width:75%;
+    }
+    .footer_bottom {
+        width:75%;
+    }
+    .footer_links {
+        text-align:center;
+    }
+    h1 {
+        @include heading_1400;
+    }
+    .marketing a {
+        width:22%;
+    }
+    .newsletter_form {
+        margin-top:15px;
+        width:100%;
+    }
+    .properties_block {
+        margin-top:75px;
+    }
+}
+
+
+/* Min Width: 1201px, Max Width: 1400px */
+@media (min-width:1201px) and (max-width:1400px) {
+    .about h3 {
+        font-size:27px;
+    }
+    .about p {
+        line-height:38px;
+    }
+    .agents_contact {
+        display:block;
+    }
+    .agents_info {
+        right:0;
+        width:90%;
+    }
+    .agents_information {
+        display:block;
+    }
+    .agents_phone {
+        margin-top:5px;
+    }
+    h1 {
+        @include heading_1400;
+    }
+    .marketing a {
+        width:18%;
+    }
+    .newsletter_forminfo {
+        width:35%;
+    }
+    .newsletter_info {
+        font-size:28px;
+    }
+    .properties a {
+        width:55%;
+    }
+}
+
+
+/* Min Width: 1401px, Max Width: 1500px */
+@media (min-width:1401px) and (max-width:1500px) {
+    .marketing a {
+        width:13.5%;
+    }
+}
+
+
+/* Min Width: 1601px, Max Width: 2000px */
+@media (min-width:1601px) and (max-width:2000px) {
+    .about {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .about h1 {
+        bottom:100px;
+        line-height:100px;
+    }
+    .about h3 {
+        bottom:62px;
+        font-size:45px;
+    }
+    .about img {
+        height:993px;
+        width:848px;
+    }
+    .about p {
+        bottom:18px;
+        font-size:20px;
+        line-height:62px;
+        padding-bottom:45px;
+        padding-left:45px;
+        padding-right:45px;
+    }
+    .agents {
+        left:300px;
+        margin-bottom:125px;
+        margin-top:125px;
+    }
+    .agents_envelope {
+        bottom:3px;
+        font-size:30px;
+    }
+    .agents h2 {
+        border-left:2.5px solid;
+        font-size:40px;
+    }
+    .agents h3 {
+        font-size:35px;
+    }
+    .agents i {
+        font-size:30px;
+        padding-right:2.5px;
+    }
+    .agents_image {
+        left:93px;
+    }
+    .agents_img {
+        height:37px;
+        padding-right:2.5px;
+        width:37px;
+    }
+    .agents_info {
+        right:25px;
+    }
+    .agents_mail p {
+        bottom:8px;
+        font-size:20px;
+    }
+    .agents_marc {
+        height:625px;
+        width:600px;
+    }
+    .agents_phone p {
+        bottom:8px;
+        font-size:20px;
+    }
+    .agents_skype p {
+        bottom:4.3px;
+        font-size:20px;
+    }
+    .agents_sonya {
+        height:625px;
+        width:600px;
+    }
+    .agents_susan {
+        height:625px;
+        width:600px;
+    }
+    .agents_text {
+        bottom:4.3px;
+        font-size:20px;
+        padding-right:31px;
+    }
+    .agents_vin {
+        height:625px;
+        width:600px;
+    }
+    .blog {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .blog h3 {
+        font-size:35px;
+    }
+    .blog h4 {
+        font-size:30px;
+    }
+    .blog h5 {
+        font-size:25px;
+    }
+    .blog i {
+        font-size:16px;
+    }
+    .blog img {
+        border-radius:6.2px;
+    }
+    .blog_info {
+        border-radius:12.5px;
+        box-shadow:0 0 13.7px rgba(33, 33, 33, .2); 
+    }
+    .blog p {
+        font-size:20px;
+    }
+    .blog_tags {
+        margin-top:75px;
+    }
+    .btn-danger {
+        font-size:20px;
+    }
+    .contact {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .contact_button {
+        font-size:20px;
+    }
+    .contact_field {
+        margin-top:20px;
+    }
+    .contact h3 {
+        font-size:35px;
+    }
+    .contact i {
+        font-size:18px;
+    }
+    .contact img {
+        height:37px;
+        width:37px;
+    }
+    .contact_info div {
+        padding:21px;
+    }
+    .contact p {
+        font-size:20px;
+    }
+    .contact_social a {
+        margin-bottom:25px;
+    }
+    .footer {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .footer a {
+        font-size:20px;
+    }
+    .footer_app {
+        height:50px;
+        width:150px;
+    }
+    .footer_bottom {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .footer_bottom a {
+        font-size:20px;
+    }
+    .footer_bottom img {
+        height:37px;
+        width:37px;
+    }
+    .footer_bottom p {
+        font-size:20px;
+    }
+    .footer h3 {
+        font-size:35px;
+    }
+    .footer_img {
+        height:41px;
+        width:87px;
+    }
+    .footer p {
+        font-size:20px;
+    }
+    h1 {
+        @include heading_2000;
+    }
+    .home a {
+        font-size:20px;
+    }
+    .home_agents {
+        right:5px;
+    }
+    .home_change .home_lineBottom {
+        transform:translate(-10px, -7.5px);
+    }
+    .home_change .home_lineTop {
+        transform:translate(-10px, 7.5px);
+    }
+    .home_content {
+        left:300px;
+    }
+    .home_hamburger {
+        height:62px;
+        left:116px;
+        padding:12.5px;
+        top:156px;
+        width:68px;
+    }
+    .home_info {
+        left:152px;
+    }
+    .home_info a {
+        margin-top:62px;
+    }
+    .home_lang {
+        bottom:62px;
+    }
+    .home_line {
+        height:3.7px;
+    }
+    .home_menu {
+        padding-left:106px;
+        padding-right:106px;
+    }
+    .home_menu img {
+        height:41px;
+        margin-top:62px;
+        width:87px;
+    }
+    .home_options a {
+        margin:6.2px;
+    }
+    input[type = "text"]::placeholder {
+        font-size:20px;
+    }
+    .legal a {
+        font-size:20px;
+    }
+    .legal h2 {
+        font-size:40px;
+    }
+    .legal h5 {
+        font-size:25px;
+    }
+    .legal i {
+        font-size:20px;
+    }
+    .legal img {
+        height:41px;
+        width:70px;
+    }
+    .legal p {
+        font-size:20px;
+    }
+    .marketing {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .marketing a {
+        font-size:20px;
+        width:15%;
+    }
+    .marketing_button {
+        padding:28px;
+    }
+    .marketing > div {
+        border-radius:6.2px;
+    }
+    .marketing > div:before {
+        border-bottom:200px solid $social;
+        border-right:200px solid $white;
+    }
+    .marketing h1 {
+        padding:25px;
+    }
+    .marketing img {
+        height:41px;
+        padding:25px;
+        width:87px;
+    }
+    .newsletter_content {
+        margin-bottom:125px;
+        margin-left:300px;
+        margin-top:125px;
+    }
+    .newsletter a {
+        border:2.5px solid;
+        padding:10px;
+    }
+    .newsletter_block {
+        font-size:20px;
+        width:40%;
+    }
+    .newsletter h2 {
+        font-size:40px;
+    }
+    .privacy a {
+        font-size:20px;
+    }
+    .privacy h2 {
+        font-size:40px;
+    }
+    .privacy h5 {
+        font-size:25px;
+    }
+    .privacy i {
+        font-size:20px;
+    }
+    .privacy img {
+        height:41px;
+        width:70px;
+    }
+    .privacy p {
+        font-size:20px;
+    }
+    .properties {
+        margin-bottom:125px;
+        margin-left:300px;
+    }
+    .properties a {
+        font-size:20px;
+        width:55%;
+    }
+    .properties > div > div {
+        border-radius:12.5px;
+        box-shadow:0 0 13.7px rgba(33, 33, 33, .2); 
+    }
+    .properties h4 {
+        font-size:30px;
+    }
+    .properties i {
+        font-size:17.5px;
+    }
+    .properties img {
+        border-radius:6.2px;
+    }
+    .properties p {
+        font-size:20px;
+    }
+    .propertiesReservation a {
+        font-size:20px;
+    }
+    .propertiesReservation_button {
+        font-size:20px;
+    }
+    .propertiesReservation_cartcolumn {
+        font-size:20px;
+        margin-top:12.5px;
+        padding-bottom:12.5px;
+    }
+    .propertiesReservation_cartquantity-input {
+        font-size:20px;
+    }
+    .propertiesReservation_cartrow:last-child {
+        border-bottom:1.25px solid black;
+    }
+    .propertiesReservation_carttotal {
+        margin-right:12.5px;
+        margin-top:12.5px;
+    }
+    .propertiesReservation_carttotalprice {
+        font-size:20px;
+    }
+    .propertiesReservation_carttotaltitle {
+        font-size:20px;
+        margin-right:25px;
+    }
+    .propertiesReservation_details {
+        padding:6.25px;
+    }
+    .propertiesReservation_header {
+        font-size:40px;
+    }
+    .propertiesReservation i {
+        font-size:20px;
+    }
+    .propertiesReservation_item {
+        margin:37px;
+    }
+    .propertiesReservation_logo img {
+        height:41px;
+        width:77px;
+    }
+    .propertiesReservation p {
+        font-size:20px;
+    }
+    .propertiesReservation_price {
+        font-size:20px;
+    }
+    .propertiesReservation_purchase {
+        font-size:20px;
+        margin:50px auto 100px auto;
+    }
+    .propertiesReservation_title {
+        font-size:20px;
+        margin-bottom:18px;
+    }
+    textarea[type = "text"] {
+        height:312px;
+    }
+    textarea[type = "text"]::placeholder {
+        font-size:20px;
+    }
+}
+
+
+/* Min Width: 2001px, Max Width: 2500px */
+@media (min-width:2001px) and (max-width:2500px) {
+    .about {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .about h1 {
+        bottom:125px;
+        line-height:125px;
+    }
+    .about h3 {
+        bottom:77px;
+        font-size:56px;
+    }
+    .about img {
+        height:1241px;
+        width:1060px;
+    }
+    .about p {
+        bottom:22px;
+        font-size:25px;
+        line-height:77px;
+        padding-bottom:56px;
+        padding-left:56px;
+        padding-right:56px;
+    }
+    .agents {
+        left:375px;
+        margin-bottom:156px;
+        margin-top:156px;
+    }
+    .agents_envelope {
+        bottom:3px;
+        font-size:37px;
+    }
+    .agents h2 {
+        border-left:3.1px solid;
+        font-size:50px;
+    }
+    .agents h3 {
+        font-size:43px;
+    }
+    .agents i {
+        font-size:37px;
+        padding-right:3.8px;
+    }
+    .agents_image {
+        left:116px;
+    }
+    .agents_img {
+        height:46px;
+        padding-right:3.8px;
+        width:46px;
+    }
+    .agents_info {
+        right:31px;
+    }
+    .agents_mail p {
+        bottom:10px;
+        font-size:25px;
+    }
+    .agents_marc {
+        height:781px;
+        width:750px;
+    }
+    .agents_phone p {
+        bottom:10px;
+        font-size:25px;
+    }
+    .agents_skype p {
+        bottom:4.3px;
+        font-size:25px;
+    }
+    .agents_sonya {
+        height:781px;
+        width:750px;
+    }
+    .agents_susan {
+        height:781px;
+        width:750px;
+    }
+    .agents_text {
+        bottom:0;
+        font-size:25px;
+        padding-right:38px;
+    }
+    .agents_vin {
+        height:781px;
+        width:750px;
+    }
+    .blog {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .blog h3 {
+        font-size:43px;
+    }
+    .blog h4 {
+        font-size:37px;
+    }
+    .blog h5 {
+        font-size:31px;
+    }
+    .blog i {
+        font-size:20px;
+    }
+    .blog img {
+        border-radius:7.7px;
+    }
+    .blog_info {
+        border-radius:15.6px;
+        box-shadow:0 0 17.1px rgba(33, 33, 33, .2); 
+    }
+    .blog p {
+        font-size:25px;
+    }
+    .blog_tags {
+        margin-top:93px;
+    }
+    .btn-danger {
+        font-size:25px;
+    }
+    .contact {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .contact_button {
+        font-size:25px;
+    }
+    .contact_field {
+        margin-top:25px;
+    }
+    .contact h3 {
+        font-size:43px;
+    }
+    .contact i {
+        font-size:22px;
+    }
+    .contact img {
+        height:46px;
+        width:46px;
+    }
+    .contact_info div {
+        padding:26px;
+    }
+    .contact p {
+        font-size:25px;
+    }
+    .contact_social a {
+        margin-bottom:31px;
+    }
+    .footer {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .footer a {
+        font-size:25px;
+    }
+    .footer_app {
+        height:62px;
+        width:187px;
+    }
+    .footer_bottom {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .footer_bottom a {
+        font-size:25px;
+    }
+    .footer_bottom img {
+        height:46px;
+        width:46px;
+    }
+    .footer_bottom p {
+        font-size:25px;
+    }
+    .footer h3 {
+        font-size:43px;
+    }
+    .footer_img {
+        height:51px;
+        width:110px;
+    }
+    .footer p {
+        font-size:25px;
+    }
+    h1 {
+        @include heading_2500;
+    }
+    .home a {
+        font-size:25px;
+    }
+    .home_agents {
+        right:6.2px;
+    }
+    .home_change .home_lineBottom {
+        transform:translate(-12.5px, -9.3px);
+    }
+    .home_change .home_lineTop {
+        transform:translate(-12.5px, 9.3px);
+    }
+    .home_content {
+        left:375px;
+    }
+    .home_hamburger {
+        height:77px;
+        left:145px;
+        padding:15.6px;
+        top:195px;
+        width:85px;
+    }
+    .home_info {
+        left:190px;
+    }
+    .home_info a {
+        margin-top:77px;
+    }
+    .home_lang {
+        bottom:77px;
+    }
+    .home_line {
+        height:4.6px;
+    }
+    .home_menu {
+        padding-left:132px;
+        padding-right:132px;
+    }
+    .home_menu img {
+        height:51px;
+        margin-top:77px;
+        width:108px;
+    }
+    .home_options a {
+        margin:7.7px;
+    }
+    input[type = "text"]::placeholder {
+        font-size:25px;
+    }
+    .legal a {
+        font-size:25px;
+    }
+    .legal h2 {
+        font-size:50px;
+    }
+    .legal h5 {
+        font-size:31px;
+    }
+    .legal i {
+        font-size:25px;
+    }
+    .legal img {
+        height:51px;
+        width:87px;
+    }
+    .legal p {
+        font-size:25px;
+    }
+    .marketing {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .marketing a {
+        font-size:25px;
+        width:15%;
+    }
+    .marketing_button {
+        padding:35px;
+    }
+    .marketing > div {
+        border-radius:7.7px;
+    }
+    .marketing > div:before {
+        border-bottom:250px solid $social;
+        border-right:250px solid $white;
+    }
+    .marketing h1 {
+        padding:31px;
+    }
+    .marketing img {
+        height:51px;
+        padding:31px;
+        width:108px;
+    }
+    .newsletter_content {
+        margin-bottom:156px;
+        margin-left:375px;
+        margin-top:156px;
+    }
+    .newsletter a {
+        border:3.1px solid;
+        padding:11.5px;
+    }
+    .newsletter_block {
+        font-size:25px;
+        width:40%;
+    }
+    .newsletter h2 {
+        font-size:50px;
+    }
+    .privacy a {
+        font-size:25px;
+    }
+    .privacy h2 {
+        font-size:50px;
+    }
+    .privacy h5 {
+        font-size:31px;
+    }
+    .privacy i {
+        font-size:25px;
+    }
+    .privacy img {
+        height:51px;
+        width:87px;
+    }
+    .privacy p {
+        font-size:25px;
+    }
+    .properties {
+        margin-bottom:156px;
+        margin-left:375px;
+    }
+    .properties a {
+        font-size:25px;
+        width:55%;
+    }
+    .properties > div > div {
+        border-radius:15.6px;
+        box-shadow:0 0 17.1px rgba(33, 33, 33, .2); 
+    }
+    .properties h4 {
+        font-size:37px;
+    }
+    .properties i {
+        font-size:21.8px;
+    }
+    .properties img {
+        border-radius:7.7px;
+    }
+    .properties p {
+        font-size:25px;
+    }
+    .propertiesReservation a {
+        font-size:25px;
+    }
+    .propertiesReservation_button {
+        font-size:25px;
+    }
+    .propertiesReservation_cartcolumn {
+        font-size:25px;
+        margin-top:15.6px;
+        padding-bottom:15.6px;
+    }
+    .propertiesReservation_cartquantity-input {
+        font-size:25px;
+    }
+    .propertiesReservation_cartrow:last-child {
+        border-bottom:1.56px solid black;
+    }
+    .propertiesReservation_carttotal {
+        margin-right:15.6px;
+        margin-top:15.6px;
+    }
+    .propertiesReservation_carttotalprice {
+        font-size:25px;
+    }
+    .propertiesReservation_carttotaltitle {
+        font-size:25px;
+        margin-right:31px;
+    }
+    .propertiesReservation_details {
+        padding:7.7px;
+    }
+    .propertiesReservation_header {
+        font-size:50px;
+    }
+    .propertiesReservation i {
+        font-size:25px;
+    }
+    .propertiesReservation_item {
+        margin:46px;
+    }
+    .propertiesReservation_logo img {
+        height:51px;
+        width:96px;
+    }
+    .propertiesReservation p {
+        font-size:25px;
+    }
+    .propertiesReservation_price {
+        font-size:25px;
+    }
+    .propertiesReservation_purchase {
+        font-size:25px;
+        margin:62px auto 125px auto;
+    }
+    .propertiesReservation_title {
+        font-size:25px;
+        margin-bottom:22px;
+    }
+    textarea[type = "text"] {
+        height:390px;
+    }
+    textarea[type = "text"]::placeholder {
+        font-size:25px;
+    }
+}
+
+
+/* Min Width: 2501px, Max Width: 3125px */
+@media (min-width:2501px) and (max-width:3125px) {
+    .about {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .about h1 {
+        bottom:156px;
+        line-height:156px;
+    }
+    .about h3 {
+        bottom:96px;
+        font-size:70px;
+    }
+    .about img {
+        height:1535px;
+        width:1312px;
+    }
+    .about p {
+        bottom:27px;
+        font-size:31px;
+        line-height:96px;
+        padding-bottom:70px;
+        padding-left:70px;
+        padding-right:70px;
+    }
+    .agents {
+        left:468px;
+        margin-bottom:195px;
+        margin-top:195px;
+    }
+    .agents_envelope {
+        bottom:3px;
+        font-size:46px;
+    }
+    .agents h2 {
+        border-left:3.8px solid;
+        font-size:62px;
+    }
+    .agents h3 {
+        font-size:53px;
+    }
+    .agents i {
+        font-size:46px;
+        padding-right:5.8px;
+    }
+    .agents_image {
+        left:145px;
+    }
+    .agents_img {
+        height:57px;
+        padding-right:5.8px;
+        width:57px;
+    }
+    .agents_info {
+        right:38px;
+    }
+    .agents_mail i {
+        position:relative;
+        top:3px;
+    }
+    .agents_mail p {
+        bottom:8px;
+        font-size:31px;
+    }
+    .agents_marc {
+        height:976px;
+        width:937px;
+    }
+    .agents_phone p {
+        bottom:12px;
+        font-size:31px;
+    }
+    .agents_skype p {
+        bottom:4.3px;
+        font-size:31px;
+    }
+    .agents_sonya {
+        height:976px;
+        width:937px;
+    }
+    .agents_susan {
+        height:976px;
+        width:937px;
+    }
+    .agents_text {
+        bottom:0;
+        font-size:31px;
+        padding-right:47px;
+    }
+    .agents_vin {
+        height:976px;
+        width:937px;
+    }
+    .blog {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .blog h3 {
+        font-size:53px;
+    }
+    .blog h4 {
+        font-size:46px;
+    }
+    .blog h5 {
+        font-size:38px;
+    }
+    .blog i {
+        font-size:25px;
+    }
+    .blog img {
+        border-radius:9.6px;
+    }
+    .blog_info {
+        border-radius:19.5px;
+        box-shadow:0 0 21.3px rgba(33, 33, 33, .2); 
+    }
+    .blog p {
+        font-size:31px;
+    }
+    .blog_tags {
+        margin-top:116px;
+    }
+    .btn-danger {
+        font-size:31px;
+    }
+    .contact {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .contact_button {
+        font-size:31px;
+    }
+    .contact_field {
+        margin-top:31px;
+    }
+    .contact h3 {
+        font-size:53px;
+    }
+    .contact i {
+        font-size:27px;
+    }
+    .contact img {
+        height:57px;
+        width:57px;
+    }
+    .contact_info div {
+        padding:32px;
+    }
+    .contact p {
+        font-size:31px;
+    }
+    .contact_social a {
+        margin-bottom:38px;
+    }
+    .footer {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .footer a {
+        font-size:31px;
+    }
+    .footer_app {
+        height:77px;
+        width:233px;
+    }
+    .footer_bottom {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .footer_bottom a {
+        font-size:31px;
+    }
+    .footer_bottom img {
+        height:57px;
+        width:57px;
+    }
+    .footer_bottom p {
+        font-size:31px;
+    }
+    .footer h3 {
+        font-size:53px;
+    }
+    .footer_img {
+        height:63px;
+        width:137px;
+    }
+    .footer p {
+        font-size:31px;
+    }
+    h1 {
+        @include heading_3125;
+    }
+    .home a {
+        font-size:31px;
+    }
+    .home_agents {
+        right:7.7px;
+    }
+    .home_change .home_lineBottom {
+        transform:translate(-15.6px, -11.6px);
+    }
+    .home_change .home_lineTop {
+        transform:translate(-15.6px, 11.6px);
+    }
+    .home_content {
+        left:468px;
+    }
+    .home_hamburger {
+        height:96px;
+        left:181px;
+        padding:19.5px;
+        top:243px;
+        width:106px;
+    }
+    .home_info {
+        left:237px;
+    }
+    .home_info a {
+        margin-top:96px;
+    }
+    .home_lang {
+        bottom:96px;
+    }
+    .home_line {
+        height:5.7px;
+    }
+    .home_menu {
+        padding-left:165px;
+        padding-right:165px;
+    }
+    .home_menu img {
+        height:63px;
+        margin-top:96px;
+        width:135px;
+    }
+    .home_options a {
+        margin:9.6px;
+    }
+    input[type = "text"]::placeholder {
+        font-size:31px;
+    }
+    .legal a {
+        font-size:31px;
+    }
+    .legal h2 {
+        font-size:62px;
+    }
+    .legal h5 {
+        font-size:38px;
+    }
+    .legal i {
+        font-size:31px;
+    }
+    .legal img {
+        height:63px;
+        width:108px;
+    }
+    .legal p {
+        font-size:31px;
+    }
+    .marketing {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .marketing a {
+        font-size:31px;
+        width:15%;
+    }
+    .marketing_button {
+        padding:43px;
+    }
+    .marketing > div {
+        border-radius:9.6px;
+    }
+    .marketing > div:before {
+        border-bottom:312px solid $social;
+        border-right:312px solid $white;
+    }
+    .marketing h1 {
+        padding:38px;
+    }
+    .marketing img {
+        height:63px;
+        padding:38px;
+        width:135px;
+    }
+    .newsletter_content {
+        margin-bottom:195px;
+        margin-left:468px;
+        margin-top:195px;
+    }
+    .newsletter a {
+        border:3.8px solid;
+        padding:12px;
+    }
+    .newsletter_block {
+        font-size:31px;
+        width:40%;
+    }
+    .newsletter h2 {
+        font-size:62px;
+    }
+    .privacy a {
+        font-size:31px;
+    }
+    .privacy h2 {
+        font-size:62px;
+    }
+    .privacy h5 {
+        font-size:38px;
+    }
+    .privacy i {
+        font-size:31px;
+    }
+    .privacy img {
+        height:63px;
+        width:108px;
+    }
+    .privacy p {
+        font-size:31px;
+    }
+    .properties {
+        margin-bottom:195px;
+        margin-left:468px;
+    }
+    .properties a {
+        font-size:31px;
+        width:55%;
+    }
+    .properties > div > div {
+        border-radius:19.5px;
+        box-shadow:0 0 21.3px rgba(33, 33, 33, .2); 
+    }
+    .properties h4 {
+        font-size:46px;
+    }
+    .properties i {
+        font-size:27.2px;
+    }
+    .properties img {
+        border-radius:9.6px;
+    }
+    .properties p {
+        font-size:31px;
+    }
+    .propertiesReservation a {
+        font-size:31px;
+    }
+    .propertiesReservation_button {
+        font-size:31px;
+    }
+    .propertiesReservation_cartcolumn {
+        font-size:31px;
+        margin-top:19.5px;
+        padding-bottom:19.5px;
+    }
+    .propertiesReservation_cartquantity-input {
+        font-size:31px;
+    }
+    .propertiesReservation_cartrow:last-child {
+        border-bottom:1.95px solid black;
+    }
+    .propertiesReservation_carttotal {
+        margin-right:19.5px;
+        margin-top:19.5px;
+    }
+    .propertiesReservation_carttotalprice {
+        font-size:31px;
+    }
+    .propertiesReservation_carttotaltitle {
+        font-size:31px;
+        margin-right:38px;
+    }
+    .propertiesReservation_details {
+        padding:9.6px;
+    }
+    .propertiesReservation_header {
+        font-size:62px;
+    }
+    .propertiesReservation i {
+        font-size:31px;
+    }
+    .propertiesReservation_item {
+        margin:57px;
+    }
+    .propertiesReservation_logo img {
+        height:63px;
+        width:120px;
+    }
+    .propertiesReservation p {
+        font-size:31px;
+    }
+    .propertiesReservation_price {
+        font-size:31px;
+    }
+    .propertiesReservation_purchase {
+        font-size:31px;
+        margin:77px auto 156px auto;
+    }
+    .propertiesReservation_title {
+        font-size:31px;
+        margin-bottom:27px;
+    }
+    textarea[type = "text"] {
+        height:487px;
+    }
+    textarea[type = "text"]::placeholder {
+        font-size:31px;
+    }
+}
+
+
+/* Min Width: 3125px */
+@media (min-width:3125px) {
+    .about {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .about h1 {
+        bottom:195px;
+        line-height:195px;
+    }
+    .about h3 {
+        bottom:120px;
+        font-size:87px;
+    }
+    .about img {
+        height:1918px;
+        width:1640px;
+    }
+    .about p {
+        bottom:33px;
+        font-size:38px;
+        line-height:120px;
+        padding-bottom:87px;
+        padding-left:87px;
+        padding-right:87px;
+    }
+    .agents {
+        left:585px;
+        margin-bottom:243px;
+        margin-top:243px;
+    }
+    .agents_envelope {
+        bottom:3px;
+        font-size:57px;
+    }
+    .agents h2 {
+        border-left:4.7px solid;
+        font-size:77px;
+    }
+    .agents h3 {
+        font-size:66px;
+    }
+    .agents i {
+        font-size:57px;
+        padding-right:9px;
+    }
+    .agents_image {
+        left:181px;
+    }
+    .agents_img {
+        height:71px;
+        padding-right:9px;
+        width:71px;
+    }
+    .agents_info {
+        right:47px;
+    }
+    .agents_mail i {
+        position:relative;
+        top:3px;
+    }
+    .agents_mail p {
+        bottom:8px;
+        font-size:38px;
+    }
+    .agents_marc {
+        height:1220px;
+        width:1171px;
+    }
+    .agents_phone p {
+        bottom:10px;
+        font-size:38px;
+    }
+    .agents_skype p {
+        bottom:3px;
+        font-size:38px;
+    }
+    .agents_sonya {
+        height:1220px;
+        width:1171px;
+    }
+    .agents_susan {
+        height:1220px;
+        width:1171px;
+    }
+    .agents_text {
+        bottom:0;
+        font-size:38px;
+        padding-right:58px;
+    }
+    .agents_vin {
+        height:1220px;
+        width:1171px;
+    }
+    .blog {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .blog h3 {
+        font-size:66px;
+    }
+    .blog h4 {
+        font-size:57px;
+    }
+    .blog h5 {
+        font-size:47px;
+    }
+    .blog i {
+        font-size:31px;
+    }
+    .blog img {
+        border-radius:12px;
+    }
+    .blog_info {
+        border-radius:24.3px;
+        box-shadow:0 0 26.6px rgba(33, 33, 33, .2); 
+    }
+    .blog p {
+        font-size:38px;
+    }
+    .blog_tags {
+        margin-top:145px;
+    }
+    .btn-danger {
+        font-size:38px;
+    }
+    .contact {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .contact_button {
+        font-size:38px;
+    }
+    .contact_field {
+        margin-top:38px;
+    }
+    .contact h3 {
+        font-size:66px;
+    }
+    .contact i {
+        font-size:33px;
+    }
+    .contact img {
+        height:71px;
+        width:71px;
+    }
+    .contact_info div {
+        padding:40px;
+    }
+    .contact p {
+        font-size:38px;
+    }
+    .contact_social a {
+        margin-bottom:47px;
+    }
+    .footer {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .footer a {
+        font-size:38px;
+    }
+    .footer_bottom a {
+        font-size:38px;
+    }
+    .footer_bottom img {
+        height:71px;
+        width:71px;
+    }
+    .footer_bottom p {
+        font-size:38px;
+    }
+    .footer_app {
+        height:96px;
+        width:291px;
+    }
+    .footer_bottom {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .footer h3 {
+        font-size:66px;
+    }
+    .footer_img {
+        height:78px;
+        width:171px;
+    }
+    .footer p {
+        font-size:38px;
+    }
+    h1 {
+        @include heading_3850;
+    }
+    .home a {
+        font-size:38px;
+    }
+    .home_agents {
+        right:9.6px;
+    }
+    .home_change .home_lineBottom {
+        transform:translate(-19.5px, -14.5px);
+    }
+    .home_change .home_lineTop {
+        transform:translate(-19.5px, 14.5px);
+    }
+    .home_content {
+        left:585px;
+    }
+    .home_hamburger {
+        height:120px;
+        left:226px;
+        padding:24.3px;
+        top:303px;
+        width:132px;
+    }
+    .home_info {
+        left:296px;
+    }
+    .home_info a {
+        margin-top:120px;
+    }
+    .home_lang {
+        bottom:120px;
+    }
+    .home_line {
+        height:7.1px;
+    }
+    .home_menu {
+        padding-left:206px;
+        padding-right:206px;
+    }
+    .home_menu img {
+        height:78px;
+        margin-top:120px;
+        width:168px;
+    }
+    .home_options a {
+        margin:12px;
+    }
+    input[type = "email"] {
+        font-size:38px;
+        height:50px;
+    }
+    input[type = "email"]::placeholder {
+        font-size:38px;
+    }
+    input[type = "text"] {
+        font-size:38px;
+        height:50px;
+    }
+    input[type = "text"]::placeholder {
+        font-size:38px;
+    }
+    .legal a {
+        font-size:38px;
+    }
+    .legal h2 {
+        font-size:77px;
+    }
+    .legal h5 {
+        font-size:47px;
+    }
+    .legal i {
+        font-size:38px;
+    }
+    .legal img {
+        height:78px;
+        width:135px;
+    }
+    .legal p {
+        font-size:38px;
+    }
+    .marketing {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .marketing a {
+        font-size:38px;
+        width:15%;
+    }
+    .marketing_button {
+        padding:53px;
+    }
+    .marketing > div {
+        border-radius:12px;
+    }
+    .marketing > div:before {
+        border-bottom:390px solid $social;
+        border-right:390px solid $white;
+    }
+    .marketing h1 {
+        padding:47px;
+    }
+    .marketing img {
+        height:78px;
+        padding:47px;
+        width:168px;
+    }
+    .newsletter_content {
+        margin-bottom:243px;
+        margin-left:585px;
+        margin-top:243px;
+    }
+    .newsletter a {
+        border:4.7px solid;
+        padding:14px;
+    }
+    .newsletter_block {
+        font-size:38px;
+        width:40%;
+    }
+    .newsletter h2 {
+        font-size:77px;
+    }
+    .privacy a {
+        font-size:38px;
+    }
+    .privacy h2 {
+        font-size:77px;
+    }
+    .privacy h5 {
+        font-size:47px;
+    }
+    .privacy i {
+        font-size:38px;
+    }
+    .privacy img {
+        height:78px;
+        width:135px;
+    }
+    .privacy p {
+        font-size:38px;
+    }
+    .properties {
+        margin-bottom:243px;
+        margin-left:585px;
+    }
+    .properties a {
+        font-size:38px;
+        width:55%;
+    }
+    .properties > div > div {
+        border-radius:24.3px;
+        box-shadow:0 0 26.6px rgba(33, 33, 33, .2); 
+    }
+    .properties h4 {
+        font-size:57px;
+    }
+    .properties i {
+        font-size:34px;
+    }
+    .properties img {
+        border-radius:12px;
+    }
+    .properties p {
+        font-size:38px;
+    }
+    .propertiesReservation a {
+        font-size:38px;
+    }
+    .propertiesReservation_button {
+        font-size:38px;
+    }
+    .propertiesReservation_cartcolumn {
+        font-size:38px;
+        margin-top:24.3px;
+        padding-bottom:24.3px;
+    }
+    .propertiesReservation_cartquantity-input {
+        font-size:38px;
+    }
+    .propertiesReservation_cartrow:last-child {
+        border-bottom:2.43px solid black;
+    }
+    .propertiesReservation_carttotal {
+        margin-right:24.3px;
+        margin-top:24.3px;
+    }
+    .propertiesReservation_carttotalprice {
+        font-size:38px;
+    }
+    .propertiesReservation_carttotaltitle {
+        font-size:38px;
+        margin-right:47px;
+    }
+    .propertiesReservation_details {
+        padding:12px;
+    }
+    .propertiesReservation_header {
+        font-size:77px;
+    }
+    .propertiesReservation i {
+        font-size:38px;
+    }
+    .propertiesReservation_item {
+        margin:71px;
+    }
+    .propertiesReservation_logo img {
+        height:78px;
+        width:150px;
+    }
+    .propertiesReservation p {
+        font-size:38px;
+    }
+    .propertiesReservation_price {
+        font-size:38px;
+    }
+    .propertiesReservation_purchase {
+        font-size:38px;
+        margin:96px auto 195px auto;
+    }
+    .propertiesReservation_title {
+        font-size:38px;
+        margin-bottom:33px;
+    }
+    textarea[type = "text"] {
+        height:608px;
+    }
+    textarea[type = "text"]::placeholder {
+        font-size:38px;
+    }
+}

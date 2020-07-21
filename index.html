@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+
+<!-- Website/Template Language -->
+<html lang = "en">
+
+
+    <head>
+        <meta charset = "utf-8">
+
+        <!-- Description, important for SEO -->
+        <meta name = "description" content = "We are a rental company with very long history. We have houses and apartments for rent in many countries around the world.">
+
+        <!-- Keywords -->
+        <meta name = "keywords" content = "Rent, Houses, Apartments, Agents, Booking, Pools, Estate, Property">
+
+        <!-- Suiting for different device sizes -->
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <link rel = "icon" type = "image/png" href = "Images/Logo.png">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-grid.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-grid.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-reboot.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-reboot.min.css">
+        <link rel = "stylesheet" href = "SCSS_CSS/style.css">
+        <link rel = "stylesheet" href = "SCSS_CSS/responsive.css">
+        <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity = "sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin = "anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <title>
+            Jovan Stanisic, PhD Theme Proposal Support
+        </title>
+
+
+        <!-- COPYRIGHT, SOURCES -->
+
+        <!-- 
+             1. TRANSLATE TOOL                         - Google Translate 
+             2. LOADER (MIT LICENCE)                   - https://codepen.io/jackrugile/full/JAKbg
+             3. PROTOTYPING                            - Figma
+             4. CUSTOM FRAME IN FIGMA                  - https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma
+             5. BACKGROUND IMAGE, HOME PAGE            - https://unsplash.com/photos/g39p1kDjvSY (Digital Marketing Agency NTWRK)
+             6. RESPONSIVE BACKGROUND IMAGE            - https://stackoverflow.com/questions/12609110/responsive-css-background-images (Andrei Volgin)
+             7. COLORS FROM IMAGE                      - coolors.co	
+             8. TEXT EFFECTS IN ILLUSTRATOR, FOR LOGO  - https://www.youtube.com/watch?v=gjwXBmb5fZ4
+             9. FONTS                                  - Google Fonts 
+            10. ALTERNATIVE TO AVENIR FONT             - https://fontsplugin.com/google-fonts-avenir/
+            11. PICK FONTS FROM WEBPAGES               - Fount
+            12. IMAGE, ABOUT SECTION                   - https://unsplash.com/photos/nC6CyrVBtkU	(Damir Kopezhanov) 
+            13. META NAME, VIEWPORT                    - https://www.w3schools.com/html/html_responsive.asp
+            14. COMPATIBILITY WITH IE                  - https://stackoverflow.com/questions/14611264/x-ua-compatible-content-ie-9-ie-8-ie-7-ie-edge (PlantTheldea)
+            15. TITLE ICON                             - https://stackoverflow.com/questions/41644821/how-can-i-change-the-title-icon (Michael Coker)
+            16. SCSS IMPORT                            - https://sass-lang.com/documentation/at-rules/import
+            17. BOOTSTRAP                              - https://getbootstrap.com/
+            18. DELETE UL INDENTATION                  - https://stackoverflow.com/questions/9620594/removing-ul-indentation-with-css (Zac)
+            19. CODE MISTAKES                          - VSC
+            20. ICONS                                  - Material Design, Font Awesome
+            21. HOME PAGE, BUTTONS                     - https://codepen.io/ivan_pik/pen/wMEZqQ	
+            22. WORK WITH DATA-TITLE ELEMENT           - https://stackoverflow.com/questions/35309862/change-div-attribute-title-color (dimshik)
+            23. JQUERY, HIDE AND SHOW                  - https://www.w3schools.com/jquery/jquery_hide_show.asp
+            24. HIDE ELEMENT IN JAVASCRIPT             - https://stackoverflow.com/questions/13688238/javascript-style-display-none-or-jquery-hide-is-more-efficient (jAndy)
+            25. FADE OUT, JAVASCRIPT                   - https://codepen.io/ssddayz/pen/zKkaBQ
+            26. DISPLAY:NONE IN JAVASCRIPT             - https://stackoverflow.com/questions/13688238/javascript-style-display-none-or-jquery-hide-is-more-efficient (jAndy)
+            27. HIDE IN JAVASCRIPT                     - https://stackoverflow.com/questions/21070101/show-hide-div-using-javascript (Josh Crozier)
+            28. IMAGE, HOUSES & APARTMENTS SECTION     - https://unsplash.com/photos/0Vdrg5pR7NY (AVANTECTURE)
+            29. IMAGE 2, HOUSES & APARTMENTS SECTION   - https://unsplash.com/photos/1ddol8rgUH8 (Scott Webb)
+            30. CROPPING IMAGES                        - ImageResizer
+            31. IMAGE 3, HOUSES & APARTMENTS SECTION   - https://unsplash.com/photos/_TPTXZd9mOo (Ярослав Алексеенко)
+            32. IMAGE 4, HOUSES & APARTMENTS SECTION   - https://unsplash.com/photos/dTV3FTL7x58 (Claudia Altamimi)
+            33. IMAGE 5, HOUSES & APARTMENTS SECTION   - https://unsplash.com/photos/zhs_y6CLWco (fran hogan)
+            34. IMAGE 6, HOUSES & APARTMENTS SECTION   - https://unsplash.com/photos/ogsUbaQiEkw (Joshua Case)
+            35. ANIMATE.CSS                            - https://raw.githubusercontent.com/daneden/animate.css/master/animate.css
+            36. TACHYONS ANIMATE                       - https://github.com/anater/tachyons-animate
+            37. IMAGE, AGENTS SECTION                  - https://unsplash.com/photos/qi2cD5oR_fE	(Javier Reyes)
+            38. IMAGE 2, AGENTS SECTION                - https://unsplash.com/photos/_dH-oQF9w-Y (Guilherme Stecanella)
+            39. IMAGE 3, AGENTS SECTION                - https://unsplash.com/photos/rnH5ITofDAM	(Taylor Grote)
+            40. IMAGE 4, AGENTS SECTION                - https://unsplash.com/photos/juESZxMhtXk (Alexandru Zdrobău)
+            41. IMAGE, BLOG SECTION                    - https://unsplash.com/photos/TaCk3NspYe0 (Luca Bravo)
+            42. IMAGE 2, BLOG SECTION                  - https://unsplash.com/photos/9TUkYXQKXec (Olenka Kotyk)
+            43. IMAGE 3, BLOG SECTION                  - https://unsplash.com/photos/uevmkfCH98Q (Lance Anderson)
+            44. IMAGE 4, BLOG SECTION                  - https://unsplash.com/photos/AlBgcDfDG_s (Carlos Alfonso)
+            45. IMAGE 5, BLOG SECTION                  - https://unsplash.com/photos/MP0bgaS_d1c (Naomi Hébert)
+            46. IMAGE 6, BLOG SECTION                  - https://unsplash.com/photos/nAhTWSNK7zM (Victor Rodriguez)
+            47. IMAGE 7, BLOG SECTION                  - https://unsplash.com/photos/a1y2TVzMEmc (Helen Thomas)
+            48. CORNER FOLDING EFFECT                  - https://www.youtube.com/watch?v=R6RJQTlKCqw
+            49. CONTACT FORM                           - https://www.youtube.com/watch?v=Ok-yiF28NDk
+            50. CONTACT FORM, PLACEHOLDER COLOR        - https://www.sitepoint.com/community/t/placeholder-text-color-override-not-working/300483/3
+            51. CONTACT FORM, MESSAGE BACKGROUND COLOR - https://stackoverflow.com/questions/26304372/changing-textbox-color-bootstrap-from-white-to-gray (Harutyun Abgaryan)
+            52. NEW YORK STREET                        - https://citytalestours.com/blogs/new-yorks-most-famous-streets
+            53. COLORS, COLOR WHEEL                    - https://www.canva.com/colors/color-wheel/
+            54. APP STORE BADGE                        - https://developer.apple.com/app-store/marketing/guidelines/#section-badges
+            55. RESERVATIONS, CART                     - https://github.com/WebDevSimplified/Introduction-to-Web-Development/tree/master/Introduction%20to%20JavaScript/Lesson%201
+            56. LEGAL SECTION, SOURCE 1                - https://termsandcondiitionssample.com/
+            57. LEGAL SECTION, SOURCE 2                - https://www.pandadoc.com/website-standard-terms-and-conditions-template/
+            58. LEGAL SECTION, SOURCE 3                - https://www.contractology.com/free-website-terms-and-conditions.html
+            59. PRIVACY POLICY                         - https://www.termsfeed.com/blog/wp-content/uploads/2019/04/privacy-policy-template.pdf
+            60. HAMBURGER MENU                         - https://github.com/lashaNoz/Hamburger-Menu
+            61. HAMBURGER MENU, YOUTUBE                - https://www.youtube.com/watch?v=BN6fH1nRDxA
+            62. CHANGE DATA-TITLE ATTRIBUTE ELEMENTS   - https://stackoverflow.com/questions/2011142/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag (Makyen)
+            63. BOOTSTRAP TYPOGRAPHY SIZES             - https://www.w3schools.com/bootstrap4/bootstrap_typography.asp
+            64. FONT AWESOME ICONS, SIZES RULES        - https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+            65. FONT AWESOME ICONS, DEFAULT SIZE       - https://stackoverflow.com/questions/30997460/what-is-the-fontawesome-default-font-em-size (Yeonjung Rho)
+            66. MATERIAL DESIGN ICONS, SIZES           - https://google.github.io/material-design-icons/
+            67. <BR>, DISPLAY:NONE                     - https://stackoverflow.com/questions/7596647/ignore-br-with-css (enobrev)
+            68. REMOVE FLEX ON MOBILE DEVICES          - https://stackoverflow.com/questions/40480144/removing-flex-in-css-for-mobile-size-screens (manar_mk)
+        -->
+
+        <!-- 
+            TABLE OF CONTENTS
+
+            1. Section Home
+            2. Section About 
+            3. Section Houses & Apartments
+            4. Section Agents 
+            5. Section Blog 
+            6. Section Marketing 
+            7. Section Contact 
+            8. Section Footer 
+            9. Section Footer - Bottom
+           10. Connection to JS files
+        -->
+    </head>
+
+
+    <body>
+
+        
+        <!-- Section - Home -->
+        <section id = "home_anchor">
+            <div class = "home">
+
+                <!-- Hamburger Menu -->
+                <div class = "home_hamburger">
+                    <div class = "home_line home_lineTop">
+                    </div>
+                    <div class = "home_line home_lineMiddle">
+                    </div>
+                    <div class = "home_line home_lineBottom">
+                    </div>
+                </div>
+
+                <!-- Logo, Menu and Language Bar -->
+                <div class = "home_menu">
+                    <div class = "d-flex justify-content-center">
+                        <a href = "#home_anchor">
+                            <img class = "img-fluid" src = "Images/Logo.png" alt = "Logo on Home Page">
+                        </a>
+                    </div>
+                    <div class = "d-flex justify-content-center home_links">
+                        <ul class = "home_options">
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#home_anchor">
+                                    Home
+                                </a>
+                            </li>
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#about_anchor">
+                                    Mission
+                                </a>
+                            </li>
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#properties_anchor">
+                                    Resources
+                                </a>
+                            </li>
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#agents_anchor">
+                                    Goals
+                                </a>
+                            </li>
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#blog_anchor">
+                                    Milestones
+                                </a>
+                            </li>
+                            <li class = "d-flex justify-content-center">
+                                <a href = "#contact_anchor">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class = "row m-0 p-0 home_lang">
+                        <li class = "col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 m-0 p-0">
+                            <a class = "home_en" href = "https://www.facebook.com/jovan.stanisic.94">
+                                <img class = "img-fluid mt-3 mb-3" src = "Images/Fb.png" alt = "Fb Logo">
+                            </a>
+                        </li>
+                        <li class = "col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 m-0 p-0">
+                            <a class = "home_de" href = "https://twitter.com/JOVANSTANII">
+                                <img class = "img-fluid mt-3 mb-3" src = "Images/Twitter.png" alt = "Twitter Logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Marketing Message and Buttons -->
+                <div class = "d-flex align-items-center justify-content-center justify-content-lg-start home_content">
+                    <div class = "home_info">
+                        <h2 class = "text-center"><b>Archaeology<br> and<br> Technology</b></h2>
+                        <div>
+                            <div class = "home_buttons">
+                                <a class = "home_offers" href = "#properties_anchor"><b>
+                                    Resources
+                                </b></a>
+                                <a class = "text-center home_agents" href = "#agents_anchor"><b>
+                                    Goals
+                                </b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section About -->
+        <section id = "about_anchor">
+            <div class = "about">
+                <div class = "row m-0 p-0">
+
+                    <!-- Image -->
+                    <div class = "col-xl-6 m-0 p-0 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
+                        <img class = "img-fluid" src = "Images/About_Main.png" alt = "About, Main Image">
+                    </div>
+
+                    <!-- We Work with Passion - Info, About -->
+                    <div class = "col-xl-6 m-0 p-0">
+                        <div class = "d-flex align-items-center justify-content-lg-start justify-content-center m-0 p-0 h-100">
+                            <div class = "m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 p-0 about_info">
+                                <h1 class = "text-center">
+                                    To Research<br> About
+                                </h1>
+                                <h3 class = "text-center">
+                                    GlobalXplorer Project
+                                </h3>
+                                <p class = "text-center">
+                                    This PhD research has a mission to offer new findings which relates to connection between modern technology and archaeology. It is crucial to be researched about new achievements in digital archaeology, and about projects similar to GlobalXplorer. This research has a potential to be quality source of information for future generations of the archaeology and digital archaeology explorers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section Houses & Apartments -->
+        <section id = "properties_anchor">
+            <div class = "d-flex justify-content-center justify-content-lg-start m-0 p-0">
+                <div class = "row mt-0 mr-0 properties">
+                    <div class = "col-xl-4 m-0 p-0 d-flex justify-content-center justify-content-lg-start">
+
+                        <!-- Block - Mountain Nest -->
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Mountain.png" alt = "Houses & Apartments, Mountain">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                GLOBALXPLORER
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-desktop">
+                                </i>
+                                Digital
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-suitcase-rolling properties_icon">
+                            </i>
+                            <p>
+                                Expeditions
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-satellite properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    Satellites
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    Peru, India
+                                </b>
+                            </p>
+                            <a href = "HTML/reservation_rocky.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Block - Peace of Nature -->
+                    <div class = "col-xl-4 m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 p-0 d-flex justify-content-center justify-content-lg-start properties_block">
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Nature.png" alt = "Houses & Apartments, Nature">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                MEDIUM
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-desktop">
+                                </i>
+                                Digital
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-pencil-alt properties_icon">
+                            </i>
+                            <p>
+                                Text/Info
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-globe-asia properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    Road to India
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    India
+                                </b>
+                            </p>
+                            <a href = "HTML/reservation_carolina.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Block - Suburb Jewel -->
+                    <div class = "col-xl-4 m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 p-0 d-flex justify-content-center justify-content-lg-start properties_block">
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Suburb.png" alt = "Houses & Apartments, Suburb">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                NATIONAL GEOGRAPHIC
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-desktop">
+                                </i>
+                                Digital
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-space-shuttle properties_icon">
+                            </i>
+                            <p>
+                                Space Archaeology
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-link properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    Project Partner
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    Space and Archaeology
+                                </b>
+                            </p>
+                            <a href = "HTML/reservation_california.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Block - Sea Shell -->
+                    <div class = "col-xl-4 m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 pr-0 pb-0 pl-0 pt-xl-5 pt-lg-0 d-flex justify-content-center justify-content-lg-start properties_block">
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Sea.png" alt = "Houses & Apartments, Sea">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                TED
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-desktop">
+                                </i>
+                                Digital
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-video properties_icon">
+                            </i>
+                            <p>
+                                Conferences
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-comment properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    TED Talk
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    TED Conferences
+                                </b>
+                            </p>
+                            <a href = "HTML/reservation_ted.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Block - Valley Spirit -->
+                    <div class = "col-xl-4 m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 pr-0 pb-0 pl-0 pt-xl-5 pt-lg-0 d-flex justify-content-center justify-content-lg-start properties_block">
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Valley.png" alt = "Houses & Apartments, Valley">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                ATLAS OF THE FUTURE
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-desktop">
+                                </i>
+                                Digital
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-pencil-alt properties_icon">
+                            </i>
+                            <p>
+                                Text/Info
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-landmark properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    I. Jones Meets Google Earth
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    Sarah Parcak and GlobalXplorer
+                                </b>
+                            </p>
+                            <a href = "HTML/atlas.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Block - Tropical Place -->
+                    <div class = "col-xl-4 m-xl-0 mr-lg-0 mb-lg-0 ml-lg-0 pr-0 pb-0 pl-0 pt-xl-5 pt-lg-0 d-flex justify-content-center justify-content-lg-start properties_block">
+                        <div class = "properties_info">
+                            <div>
+                                <img class = "img-fluid" src = "Images/HousesApartments_Tropical.png" alt = "Houses & Apartments, Tropical">
+                            </div>
+                            <h4 class = "pt-3 pl-3 pb-3">
+                                CLASSIC LITERATURE
+                            </h4>
+                            <p class = "pl-3 pt-3">
+                                <i class = "pr-2 fas fa-book-open">
+                                </i>
+                                Classic
+                            </p>
+                            <br>
+                            <i class = "pl-3 pr-2 fas fa-book properties_icon">
+                            </i>
+                            <p>
+                                Books/Reading
+                            </p>
+                            <p>
+                                <span>
+                                    <i class = "ml-3 ml-sm-4 pr-2 fas fa-archway properties_icon">
+                                    </i>
+                                </span>
+                                <span>
+                                    Archaeology Literature
+                                </span>
+                            </p>
+                            <br>
+                            <p class = "pl-3">
+                                <b>
+                                    Books, Digital Books
+                                </b>
+                            </p>
+                            <a href = "HTML/classic.html">
+                                <b>
+                                    Learn More
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section - Agents -->
+        <section id = "agents_anchor">
+            <div class = "row m-0 p-0 agents">
+
+                <!-- Image - Marc Foster -->
+                <div class = "col-xl-6 m-0 p-0 d-flex justify-content-center justify-content-lg-start">
+                    <img class = "img-fluid m-0 p-0 agents_marc" src = "Images/Agents_First.png" alt = "First agent">
+                </div>
+
+                <!-- Block - Marc Foster -->
+                <div class = "col-xl-6 d-flex align-items-center justify-content-center justify-content-lg-start mr-lg-0 mb-lg-0 ml-lg-0 mt-lg-4 agents_block">
+                    <div class = "ml-lg-3 ml-xl-0 agents_info">
+                        <h2 class = "pl-2 agents_name">
+                            <b>
+                                Software Features
+                            </b>
+                        </h2>
+                        <h3>
+                            Software Features, GlobalXplorer
+                        </h3>
+                        <p class = "agents_text">
+                            In this objective I have intention to focus on several important issues. As first, I want to research more about development of software, which drive GlobalXplorer, but also to research about software challenges and obstacles in development. Finally, I need to find out more about other similar software tools in archaeology.
+                        </p>
+                        <div class = "agents_contact">
+                            <div class = "d-flex justify-content-center justify-content-lg-start agents_cont">
+                                <div class = "agents_information agents_phone">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 material-icons">
+                                        phone
+                                    </i>
+                                    <p>
+                                        +387 65 520 406
+                                    </p>
+                                </div>
+                                <div class = "agents_information agents_mail">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 fas fa-envelope agents_envelope">
+                                    </i>
+                                    <p>
+                                        jst2016@mail.com
+                                    </p>
+                                </div>
+                                <div class = "m-sm-0 p-0 agents_information agents_skype">
+                                    <img class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 img-fluid agents_img" src = "Images/Skype.png" alt = "Skype Logo">
+                                    <p class = "m-0 p-0">
+                                        jovans81
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image - Susan Carr -->
+                <div class = "col-xl-6 mb-0 ml-0 mr-0 mt-sm-5 p-0 d-flex justify-content-center justify-content-lg-start agents_blo">
+                    <img class = "img-fluid m-0 p-0 agents_susan" src = "Images/Agents_Second.png" alt = "Second agent">
+                </div>
+
+                <!-- Block - Susan Carr -->
+                <div class = "col-xl-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-xl-5 mt-lg-4 agents_block">
+                    <div class = "ml-lg-3 ml-xl-0 agents_info">
+                        <h2 class = "pl-2">
+                            <b>
+                                Mission Peru, Impact and Results
+                            </b>
+                        </h2>
+                        <h3>
+                            Impact and Mission Results
+                        </h3>
+                        <p class = "agents_text">
+                            In this objective, I have intention to research in two directions - to know more about impact of this mission to scientific community and to citizens. Also, for me is important to research about mission results and its importance for archaeology as a science.
+                        </p>
+                        <div class = "agents_contact">
+                            <div class = "d-flex justify-content-center justify-content-lg-start agents_cont">
+                                <div class = "agents_information agents_phone">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 material-icons">
+                                        phone
+                                    </i>
+                                    <p>
+                                        +387 65 520 406
+                                    </p>
+                                </div>
+                                <div class = "agents_information agents_mail">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 fas fa-envelope agents_envelope">
+                                    </i>
+                                    <p>
+                                        jst2016@mail.com
+                                    </p>
+                                </div>
+                                <div class = "m-sm-0 p-0 agents_information agents_skype">
+                                    <img class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 img-fluid agents_img" src = "Images/Skype.png" alt = "Skype Logo">
+                                    <p class = "m-0 p-0">
+                                        jovans81
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image - Vin Derrick -->
+                <div class = "col-xl-6 mb-0 ml-0 mr-0 mt-sm-5 p-0 d-flex justify-content-center justify-content-lg-start agents_blo">
+                    <img class = "img-fluid m-0 p-0 agents_vin" src = "Images/Agents_Third.png" alt = "Third agent">
+                </div>
+
+                <!-- Block - Vin Derrick -->
+                <div class = "col-xl-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-xl-5 mt-lg-4 agents_block">
+                    <div class = "ml-lg-3 ml-xl-0 agents_info">
+                        <h2 class = "pl-2">
+                            <b>
+                                Future of the Project
+                            </b>
+                        </h2>
+                        <h3>
+                            India Mission and Beyond
+                        </h3>
+                        <p class = "agents_text">
+                            Future of this project has two important directions - expectations from India mission and project plans after India mission.
+                        </p>
+                        <div class = "agents_contact">
+                            <div class = "d-flex justify-content-center justify-content-lg-start agents_cont">
+                                <div class = "agents_information agents_phone">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 material-icons">
+                                        phone
+                                    </i>
+                                    <p>
+                                        +387 65 520 406
+                                    </p>
+                                </div>
+                                <div class = "agents_information agents_mail">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 fas fa-envelope agents_envelope">
+                                    </i>
+                                    <p>
+                                        jst2016@mail.com
+                                    </p>
+                                </div>
+                                <div class = "m-sm-0 p-0 agents_information agents_skype">
+                                    <img class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 img-fluid agents_img" src = "Images/Skype.png" alt = "Skype Logo">
+                                    <p class = "m-0 p-0">
+                                        jovans81
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image - Sonya Massimo -->
+                <div class = "col-xl-6 mb-0 ml-0 mr-0 mt-sm-5 p-0 d-flex justify-content-center justify-content-lg-start agents_blo">
+                    <img class = "img-fluid m-0 p-0 agents_sonya" src = "Images/Agents_Fourth.png" alt = "Fourth agent">
+                </div>
+
+                <!-- Block - Sonya Massimo -->
+                <div class = "col-xl-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-xl-5 mt-lg-4 agents_block">
+                    <div class = "ml-lg-3 ml-xl-0 agents_info">
+                        <h2 class = "pl-2">
+                            <b>
+                                Impact on Young Generations
+                            </b>
+                        </h2>
+                        <h3>
+                            Involvement of Young Generations
+                        </h3>
+                        <p class = "agents_text">
+                            Involvement of the young people in this project is crucial. I will focus to know more about impact of GlobalXplorer on the young people and what are perspectives for this project. Also, I believe that future archaeological courses on Universities need to move on with help of new technologies and projects similar to GlobalXplorer.
+                        </p>
+                        <div class = "agents_contact">
+                            <div class = "d-flex justify-content-center justify-content-lg-start agents_cont">
+                                <div class = "agents_information agents_phone">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 material-icons">
+                                        phone
+                                    </i>
+                                    <p>
+                                        +387 520 406
+                                    </p>
+                                </div>
+                                <div class = "agents_information agents_mail">
+                                    <i class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 fas fa-envelope agents_envelope">
+                                    </i>
+                                    <p>
+                                        jst2016@mail.com
+                                    </p>
+                                </div>
+                                <div class = "m-sm-0 p-0 agents_information agents_skype">
+                                    <img class = "ml-0 mb-0 mt-0 pl-0 pb-0 pt-0 img-fluid agents_img" src = "Images/Skype.png" alt = "Skype Logo">
+                                    <p class = "m-0 p-0">
+                                        jovans81
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section - Blog -->
+        <section id = "blog_anchor">
+            <div class = "row mr-0 p-0 blog">
+                <div class = "col-xl-4 col-12 m-0 p-0">
+
+                    <!-- Block - New York State -->
+                    <div class = "mr-4">
+                        <h3 class = "ml-lg-3">
+                            2017-2020
+                        </h3>
+                        <div class = "d-flex justify-content-center justify-content-lg-start blog_information">
+                            <div class = "blog_info">
+                                <a href = "HTML/milestone_1.html">
+                                    <img class = "img-fluid w-100" src = "Images/Blog_NY.png" alt = "Blog, NY">
+                                </a>
+                                <h5 class = "mt-2 ml-2">
+                                    <b>
+                                        Introduction
+                                    </b>
+                                </h5>
+                                <h4 class = "mt-2 ml-2">
+                                    <a href = "HTML/milestone_1.html">
+                                        Introduction (Project, Impact, Future)
+                                    </a>
+                                </h4>
+                                <i class = "ml-2 fas fa-clock">
+                                </i>
+                                <p class = "mr-3">
+                                    First Year
+                                </p>
+                                <i class = "fas fa-bullseye">
+                                </i>
+                                <p>
+                                    Milestone 1
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Block - California -->
+                    <div class = "mr-4">
+                        <h3 class = "ml-lg-3 mt-5">
+                            2019
+                        </h3>
+                        <div class = "d-flex justify-content-center justify-content-lg-start blog_information">
+                            <div class = "blog_info">
+                                <a href = "HTML/milestone_2.html">
+                                    <img class = "img-fluid w-100" src = "Images/Blog_LA.png" alt = "Blog, LA">
+                                </a>
+                                <h5 class = "mt-2 ml-2">
+                                    <b>
+                                        Peru
+                                    </b>
+                                </h5>
+                                <a href = "HTML/milestone_2.html">
+                                    <h4 class = "mt-2 ml-2">
+                                        Mission Peru, Introduction and Results
+                                    </h4>
+                                </a>
+                                <i class = "ml-2 fas fa-clock">
+                                </i>
+                                <p class = "mr-3">
+                                    Second Year
+                                </p>
+                                <i class = "fas fa-bullseye">
+                                </i>
+                                <p>
+                                    Milestones 4-7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-xl-4 col-md-12 m-0 p-0">
+
+                    <!-- Block - Illinois -->
+                    <div class = "mr-4 mt-5 mt-lg-0">
+                        <h3 class = "ml-lg-3">
+                            2017-2020
+                        </h3>
+                        <div class = "d-flex justify-content-center justify-content-lg-start blog_information">
+                            <div class = "blog_info">
+                                <a href = "HTML/milestone_3.html">
+                                    <img class = "img-fluid w-100" src = "Images/Blog_Chicago.png" alt = "Blog, Chicago">
+                                </a>
+                                <h5 class = "mt-2 ml-2">
+                                    <b>
+                                        Software
+                                    </b>
+                                </h5>
+                                <a href = "HTML/milestone_3.html">
+                                    <h4 class = "mt-2 ml-2">
+                                        Development, Features, Tools, Future
+                                    </h4>
+                                </a>
+                                <i class = "ml-2 fas fa-clock">
+                                </i>
+                                <p class = "mr-3">
+                                    First Year
+                                </p>
+                                <i class = "fas fa-bullseye">
+                                </i>
+                                <p>
+                                    Milestones 2-3
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Block - Texas -->
+                    <div class = "mr-4">
+                        <h3 class = "ml-lg-3 mt-5">
+                            2020
+                        </h3>
+                        <div class = "d-flex justify-content-center justify-content-lg-start blog_information">
+                            <div class = "blog_info">
+                                <a href = "HTML/milestone_4.html">
+                                    <img class = "img-fluid w-100" src = "Images/Blog_Houston.png" alt = "Blog, Houston">
+                                </a>
+                                <h5 class = "mt-2 ml-2">
+                                    <b>
+                                        India
+                                    </b>
+                                </h5>
+                                <a href = "HTML/milestone_4.html">
+                                    <h4 class = "mt-2 ml-2">
+                                        Mission India, Introduction and Expected Results
+                                    </h4>
+                                </a>
+                                <i class = "ml-2 fas fa-clock">
+                                </i>
+                                <p class = "mr-3">
+                                    Second Year
+                                </p>
+                                <i class = "fas fa-bullseye">
+                                </i>
+                                <p>
+                                    Milestones 8-9
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Block - News and Tags -->
+                <div class = "col-xl-4 blog_news">
+                    <h4 class = "text-center mt-5 mt-xl-0">
+                        Future and Impact on Young Generations
+                    </h4>
+                    <div class = "row mt-xl-5 mt-lg-3 mr-0 mb-0 ml-0 p-0">
+                        <div class = "col-xl-6">
+                            <img class = "img-fluid" src = "Images/Blog_Kitchen.png" alt = "Blog, Kitchen">
+                        </div>
+                        <div class = "col-xl-6 d-flex align-items-center">
+                            <h5 class = "m-0 p-0">
+                                General Impact of the Project
+                            </h5>
+                        </div>
+                        <div class = "col-xl-6 mt-4">
+                            <img class = "img-fluid" src = "Images/Blog_Rents.png" alt = "Blog, Rents">
+                        </div>
+                        <div class = "col-xl-6 d-flex align-items-center mt-lg-0 mt-xl-4">
+                            <h5 class = "m-0 p-0">
+                                Impact on Young Generations
+                            </h5>
+                        </div>
+                        <div class = "col-xl-6 mt-4">
+                            <img class = "img-fluid" src = "Images/Blog_Houses.png" alt = "Blog, Houses">
+                        </div>
+                        <div class = "col-xl-6 d-flex align-items-center mt-lg-0 mt-xl-4">
+                            <h5 class = "m-0 p-0">
+                                Future of the Project
+                            </h5>
+                        </div>
+                    </div>
+                    <h4 class = "text-center blog_tags">
+                        Tags
+                    </h4>
+                    <div class = "d-flex justify-content-center justify-content-lg-start">
+                        <p class = "text-center">
+                            Exploration, Satellites, Archaeology, Peru, India, Scientists, Citizens, Heritage
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section - Marketing -->
+        <section id = "marketing_anchor">
+            <div class = "marketing">
+
+                <!-- Marketing, Content, Info and Button -->
+                <div>
+                    <img class = "img-fluid" src = "Images/Logo.png" alt = "Logo, Marketing">
+                    <h1>
+                        Space Archaeology.
+                        <br>
+                        GlobalXplorer.
+                        <br>
+                        Science.
+                    </h1>
+                    <div class = "marketing_button">
+                        <a href = "https://www.globalxplorer.org/">
+                            <b>
+                                Learn More
+                            </b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section - Contact -->
+        <section id = "contact_anchor">
+            <div class = "row contact">
+
+                <!-- Contact Form -->
+                <div class = "col-xl-6 contact_form">
+                    <h3 class = "p-3">
+                        Contact Me
+                    </h3>
+                    <div class = "row m-0">
+                        <div class = "col-xl-6">
+                            <input type = "text" class = "form-control" name = "name" placeholder = "Name">
+                            <div>
+                                <input type = "text" class = "form-control contact_field" name = "number" placeholder = "Phone">
+                            </div>
+                        </div>
+                        <div class = "col-xl-6">
+                            <input type = "text" class = "form-control mt-3 mt-xl-0" name = "Email" placeholder = "Email">
+                            <div>
+                                <input type = "text" class = "form-control contact_field" name = "City" placeholder = "City">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row m-0">
+                        <div class = "col-xl-12">
+                            <textarea name = "text" class = "form-control contact_field" placeholder = "Message"></textarea>
+                            <a href = "#">
+                                <div class = "btn mt-3 mb-3 pl-5 pr-5 pt-3 pb-3 contact_button">
+                                    Send
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone, Mail and Address -->
+                <div class = "col-xl-4 d-flex align-items-center d-flex justify-content-center justify-content-xl-start contact_info">
+                    <div class = "contact_information">
+                        <div class = "contact_phone">
+                            <i class = "material-icons">
+                                phone
+                            </i>
+                            <p class = "ml-xl-2">
+                                +387 65 520 406
+                            </p>
+                        </div>
+                        <br>
+                        <div class = "contact_mail">
+                            <i class = "fas fa-envelope">
+                            </i>
+                            <p class = "ml-xl-2">
+                                jst2016@mail.com
+                            </p>
+                        </div>
+                        <br class = "contact_gap">
+                        <div class = "contact_address">
+                            <i class = "fas fa-globe-americas">
+                            </i>
+                            <p class = "ml-xl-2">
+                                Miloša Obilića, BL, BH
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Icons -->
+                <div class = "col-xl-2 d-flex align-items-center justify-content-center contact_social">
+                    <div>
+                        <a href = "https://www.facebook.com/jovan.stanisic.94">
+                            <img class = "img-fluid" src = "Images/Fb.png" alt = "Fb Logo">
+                        </a>
+                        <a href = "https://dribbble.com/JoXiR">
+                            <img class = "img-fluid" src = "Images/Instagram.png" alt = "Instagram Logo">
+                        </a>
+                        <a href = "https://twitter.com/JOVANSTANII">
+                            <img class = "img-fluid" src = "Images/Twitter.png" alt = "Twitter Logo">
+                        </a>
+                        <a href = "https://www.skype.com/en/">
+                            <img class = "img-fluid" src = "Images/Skype.png" alt = "Skype Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id = "newsletter">
+            <div class = "row mr-0 mb-0 p-0 newsletter_content">
+                <div class = "col-xl-6 m-0 p-0">
+                    <h2 class = "m-0 p-0 newsletter_info">
+                        SUBSCRIBE FOR LATEST INFO
+                    </h2>
+                </div>
+                <div class = "col-xl-6 col-12 m-0 p-0 d-flex align-items-center justify-content-center justify-content-lg-end newsletter_subscribe">
+                    <div class = "mt-3 mt-xl-0 newsletter_form">
+                        <input type = "name" placeholder = "Name" class = "m-0 p-2 newsletter_forminfo newsletter_block">
+                        <input type = "mail" placeholder = "Email Address" class = "m-0 p-2 newsletter_forminfo newsletter_block">
+                        <a class = "newsletter_block newsletter_link" href = "#">
+                            Subscribe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Section - Footer -->
+        <section id = "footer_anchor">
+            <div class = "row footer">
+
+                <!-- Logo and Info Text -->
+                <div class = "col-lg-4 m-0 p-0 footer_about">
+                    <div class = "d-flex justify-content-center justify-content-lg-start">
+                        <div>
+                            <a class = "m-0 p-0" href = "#">
+                                <img class = "img-fluid footer_img" src = "Images/Logo.png" alt = "Villes Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "d-flex justify-content-center justify-content-lg-start">
+                        <p class = "mt-xl-2 mt-3 ml-0 p-0 footer_info">
+                            Archeos is a website, which is support for Jovan Stanisic PhD Theme Proposal. If you have any question, be free to contact me on jst2016@mail.com.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class = "col-lg-4 m-lg-0 mt-5 p-0 d-flex justify-content-center footer_links">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a href = "#home_anchor">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#about_anchor">
+                                    Mission
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#properties_anchor">
+                                    Resources
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#agents_anchor">
+                                    Goals
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#blog_anchor">
+                                    Milestones
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#contact_anchor">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Villes App -->
+                <div class = "col-lg-4 m-lg-0 mt-5 p-0 d-flex justify-content-lg-end justify-content-center">
+                    <div>
+                        <h3>
+                            Peru Mission Experience
+                        </h3>
+                        <a href = "https://www.globalxplorer.org/expedition">
+                            Visit
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer on the Bottom -->
+            <div class = "footer_bottomcontainer">
+                <div class = "row mt-0 mr-0 mb-0 p-0 footer_bottom">
+                    <div class = "col-xl-4 m-0 p-0 d-flex justify-content-center align-items-center footer_bottomtest2">
+                        <div class = "mt-3 mt-xl-0">
+                            <a class = "mt-0 mr-4 mb-0 ml-0 p-0" href = "HTML/legal.html">
+                                Intellectual Rights
+                            </a>
+                            <a class = "m-0 p-0" href = "HTML/privacy.html">
+                                Ethics
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 m-0 p-0 d-flex justify-content-center align-items-center">
+                        <a class = "mt-0 mr-4 mb-0 ml-0 p-0" href = "https://www.facebook.com/jovan.stanisic.94">
+                            <img class = "img-fluid mt-3 mb-3" src = "Images/Fb.png" alt = "Fb Logo">
+                        </a>
+                        <a class = "mt-0 mr-4 mb-0 ml-0 p-0" href = "https://dribbble.com/JoXiR">
+                            <img class = "img-fluid mt-3 mb-3" src = "Images/Instagram.png" alt = "Instagram Logo">
+                        </a>
+                        <a class = "mt-0 mr-4 mb-0 ml-0 p-0" href = "https://twitter.com/JOVANSTANII">
+                            <img class = "img-fluid mt-3 mb-3" src = "Images/Twitter.png" alt = "Twitter Logo">
+                        </a>
+                        <a href = "https://www.skype.com/en/">
+                            <img class = "img-fluid mt-3 mb-3" src = "Images/Skype.png" alt = "Skype Logo">
+                        </a>
+                    </div>
+                    <div class = "col-xl-4 mb-3 mb-xl-0 p-0 d-flex justify-content-center align-items-center footer_bottomtest">
+                        <p class = "m-0 p-0 footer_copyright">
+                            Created by: JoX - Themes©, 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Links to JS Files -->
+        <script src = 'JS/jquery-3.4.1.min.js'>
+        </script>
+        <script src = 'JS/popper.min.js'>
+        </script>
+        <script src = 'JS/bootstrap.js'>
+        </script>
+        <script src = 'JS/bootstrap.min.js'>
+        </script>
+        <script src = 'JS/bootstrap.bundle.js'>
+        </script>
+        <script src = 'JS/bootstrap.bundle.min.js'>
+        </script>
+        <script src = "JS/loader.js">
+        </script>
+        <script src = "JS/menu.js">
+        </script>
+
+        
+    </body>
+</html>

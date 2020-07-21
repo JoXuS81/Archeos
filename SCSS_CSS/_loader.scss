@@ -1,0 +1,26 @@
+/* TABLE OF CONTENTS
+********************
+
+1. Variable
+2. Canvas 
+
+*/
+
+
+/* Variable*/
+$dark:#030503;
+$gray:#272b2b;
+$white:white;
+
+
+/* Canvas */
+canvas {
+    background:$gray;
+    bottom:0;
+    left:0;
+    margin:auto;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:2;
+}
